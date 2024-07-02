@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  title: 'My Portfolio',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Bhavin Rathod',
+  role: 'Front End Developer Fresher',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'Enthusiastic and detail-oriented Frontend Developer Intern with a passion for crafting responsive and user-friendly web applications. Proficient in modern web technologies including HTML5, CSS3, JavaScript, and ReactJS. Eager to contribute technical skills and creative abilities to a dynamic team while gaining hands-on experience in frontend development.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/in/bhavin-rathod-095745186',
+    github: 'https://github.com/bhavin-08',
   },
 }
 
@@ -23,25 +23,25 @@ const projects = [
   {
     name: 'Project 1',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
+      'Developed a responsive password generator website using ReactJS that generates secure passwords based on user preferences. The application allows users to specify password length, include/exclude special characters, numbers, and uppercase letters to customize their passwords.',
+    stack: ['CSS', 'JavaScript', 'React'],
+    sourceCode: 'https://github.com/bhavin-08/react_password_generator',
     livePreview: 'https://github.com',
   },
   {
     name: 'Project 2',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
+      'The React Task Scheduler is a website designed to help users manage their daily tasks efficiently. Built using ReactJS, it provides a responsive and intuitive interface for adding, editing, and deleting tasks. The application utilizes local storage to persist tasks across sessions, ensuring data integrity and user convenience.',
+    stack: ['CSS', 'JavaScript', 'React'],
+    sourceCode: 'https://github.com/bhavin-08/task_scheduler',
     livePreview: 'https://github.com',
   },
   {
     name: 'Project 3',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
+      'Developed a responsive and interactive real estate website leveraging ReactJS to provide a seamless user experience for property browsing and management. The project aimed to showcase listings, property details, and facilitate user interaction through intuitive UI components.',
+    stack: ['CSS', 'JavaScript', 'React'],
+    sourceCode: 'https://github.com/bhavin-08/re2/tree/main/Real-Estate-website-main',
     livePreview: 'https://github.com',
   },
 ]
@@ -52,20 +52,19 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
   'React',
   'Redux',
-  'SASS',
+  'Python',
   'Material UI',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'MySQL',
+  'Linux',
+  'VS Code',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'bhavinrathod1115@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
